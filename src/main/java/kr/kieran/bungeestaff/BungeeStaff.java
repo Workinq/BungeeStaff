@@ -28,11 +28,11 @@ public class BungeeStaff extends Plugin {
 
     @Override
     public void onDisable() {
-        instance = null;
         playerManager.term();
         cooldownUtils.term();
         getProxy().getPluginManager().unregisterCommands(this);
         getProxy().getPluginManager().unregisterListeners(this);
+        instance = null;
     }
 
     private void registerListeners() {
