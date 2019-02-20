@@ -1,0 +1,5 @@
+name: BungeeStaff
+main: kr.kieran.bungeestaff.BungeeStaff
+version: ${project.version}
+author: Kieraaaan
+website: https://kieransvps.com
